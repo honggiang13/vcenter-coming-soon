@@ -51,7 +51,7 @@
  *
  * =================================================================== */
 
- @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lora');
+ @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lora|Merienda:700');
 
 /* ===================================================================
  * # base style overrides
@@ -1343,6 +1343,9 @@ input::-moz-focus-inner {
   border: none;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  font-family: 'Merienda', cursive;
+  font-size: 4em;
+  color: white;
 }
 .header-logo img {
   width: 200px;
